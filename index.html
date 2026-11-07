@@ -48,7 +48,7 @@ section { padding: 36px 0; border-top: 1px solid var(--line); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; }
 .card p { color: var(--ink2); margin: 0 0 14px; flex: 1; }
 .card .links a { margin-right: 16px; font-weight: 600; font-size: 15px; }
-.tag { display: inline-block; font-size: 12px; font-weight: 600; color: var(--accent-ink); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; margin-bottom: 10px; }
+.tag { display: inline-block; align-self: flex-start; font-size: 12px; font-weight: 600; color: var(--accent-ink); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; margin-bottom: 10px; }
 .fig { background: #fcfcfb; border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin: 18px 0 8px; }
 .fig img { width: 100%; height: auto; display: block; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
@@ -72,7 +72,7 @@ footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--i
 <header>
   <div class="wrap">
     <div class="brand">GloBIAS 2026 · Group 5</div>
-    <nav><a href="#findings">Findings</a><a href="#projects">Projects</a><a href="#assignments">Assignments</a></nav>
+    <nav><a href="#talk">Talk</a><a href="#findings">Findings</a><a href="#projects">Projects</a><a href="#assignments">Assignments</a></nav>
   </div>
 </header>
 
@@ -86,6 +86,7 @@ footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--i
         Here is what happened.</p>
       <a class="btn" href="https://globias-2026-group5.github.io/agent-benchmark-ilastik-tracking/">Read the comparison</a>
       <a class="btn secondary" href="https://globias-2026-group5.github.io/ilastik-mitocheck-run/">The original run</a>
+      <a class="btn secondary" href="#talk">Talk materials</a>
       <p class="note">Group work for the GloBIAS 2026 workshop; not an official GloBIAS site.</p>
     </div>
     <figure>
@@ -94,6 +95,30 @@ footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--i
       <figcaption>The result: every tracked lineage in its own colour, across 53 frames (ilastik 1.3.3post3).</figcaption>
     </figure>
   </div>
+
+  <section id="talk">
+    <h2>Talk materials</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="tag">Reading</span>
+        <h3>Explainer</h3>
+        <p>7 pages in plain language, for readers new to AI agents.</p>
+        <div class="links"><a href="talk/ilastik-five-sessions-explainer.pdf">PDF</a><a href="talk/ilastik-five-sessions-explainer.docx">Word</a></div>
+      </div>
+      <div class="card">
+        <span class="tag">Slides</span>
+        <h3>Short deck</h3>
+        <p>7 slides, for the 15-minute group presentation.</p>
+        <div class="links"><a href="talk/ilastik-five-sessions-short.pptx">PowerPoint</a><a href="talk/ilastik-five-sessions-short.pdf">PDF</a></div>
+      </div>
+      <div class="card">
+        <span class="tag">Slides</span>
+        <h3>Long deck</h3>
+        <p>16 slides with speaker notes, for a longer talk.</p>
+        <div class="links"><a href="talk/ilastik-five-sessions-long.pptx">PowerPoint</a><a href="talk/ilastik-five-sessions-long.pdf">PDF</a></div>
+      </div>
+    </div>
+  </section>
 
   <section id="findings">
     <h2>In one minute</h2>
